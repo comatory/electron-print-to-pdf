@@ -1,0 +1,19 @@
+<svg width="500" height="500" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Canvas" fill="none">
+<rect width="500" height="500" fill="#E5E5E5"/>
+<g id="Frame" clip-path="url(#clip0)">
+<rect width="500" height="500" fill="white"/>
+<g id="Ellipse">
+<circle cx="250" cy="250" r="250" fill="#C4C4C4"/>
+</g>
+</g>
+</g>
+<defs>
+
+<clipPath id="clip0">
+<rect width="500" height="500" fill="white"/>
+</clipPath>
+
+</defs>
+</svg>
+

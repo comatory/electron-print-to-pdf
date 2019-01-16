@@ -1,0 +1,30 @@
+<svg width="1000" height="1000" viewBox="0 0 1000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Canvas" fill="none">
+<g id="Frame 2.2" clip-path="url(#clip0)">
+<rect width="1000" height="1000" fill="white"/>
+<g id="Rectangle">
+<rect width="4" height="4" transform="translate(0 500)" fill="#FF1313"/>
+</g>
+<g id="Rectangle_2">
+<rect width="4" height="4" transform="translate(996 500)" fill="#FF1313"/>
+</g>
+<g id="Rectangle_3">
+<rect width="4" height="4" transform="translate(500 0)" fill="#FF1313"/>
+</g>
+<g id="Rectangle_4">
+<rect width="4" height="4" transform="translate(500 996)" fill="#FF1313"/>
+</g>
+<g id="Rectangle 2">
+<rect width="957" height="959" transform="translate(20 20)" fill="#FF1313"/>
+</g>
+</g>
+</g>
+<defs>
+
+<clipPath id="clip0">
+<rect width="1000" height="1000" fill="white"/>
+</clipPath>
+
+</defs>
+</svg>
+
