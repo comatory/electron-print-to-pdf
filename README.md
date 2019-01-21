@@ -1,3 +1,21 @@
+# electron-print-to-pdf
+
+This is a sample app to test out printing to PDF from `<webview>` components.
+
+Basically when you launch the app, you have the option to use your own image files (JPEGs, PNGs, SVGs) or use supplied sample images (by clicking on "Load sample files" button).
+
+## How it works?
+
+1. First you need to generate webview components from provided images. So drag'n'drop your images to rectangular drop area or click "Load sample files". You can definitely use multiple images.
+2. Now click "Generate Webviews" button, if you have option "Webviews visible" checked, the images should be displayed inside the app.
+3. Click "Generate PDF" and all webviews should be converted to PDF to default directory (marked by "Folder" input).
+
+## The problem
+
+There are certain source images that output the PDF with multiple pages, even though the PDF should always stretch out to image dimensions. It seems like some images are affected by this, usually when they're big. For example, some images with width bigger than 2100px end up on two pages, yet if I crop the same image to smaller width (like 2000px), the output is correct.
+
+You have an image called `bad.png` in the root of the repository with which you can reproduce this behaviour.
+
 # electron-quick-start
 
 **Clone and run for a quick way to see Electron in action.**
